@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Saya - Lelyta Meyda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tentang Saya</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="btn">Home</a></li>
+                    <li><a href="about.html" class="btn">Tentang Saya</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="about">
+            <div class="container">
+                <h2>Profil Singkat</h2>
+                <p>Saya Lelyta Meyda Ayu Budiyanti, seorang mahasiswi di Politeknik Negeri Malang. Saya sedang suka belajar tentang desain pemrograman web.</p>
+
+                <img src="img/profile2.jpeg" alt="Foto Lain Saya">
+
+                <h3>Hobi Saya:</h3>
+                <ul>
+                    <li>Membaca Novel</li>
+                    <li>Mendengarkan Musik</li>
+                    <li>Menonton film</li>
+                    <li>Bermain Olahraga Bulu Tangkis</li>
+                </ul>
+
+                <h3>Kegiatan Yang Sedang Ingin Saya Tekuni:</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Kegiatan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Belajar HTML & CSS</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Belajar JavaScript</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Belajar Desain Grafis</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Membuat Cerita Novel</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Rutin Untuk Olahraga</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- Form Tambahan -->
+                <h3>Kontak Saya</h3>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="nama">Nama Lengkap:</label>
+                        <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="gender">Jenis Kelamin:</label>
+                        <select id="gender" name="gender" required>
+                            <option value="">Pilih jenis kelamin</option>
+                            <option value="laki-laki">Laki-Laki</option>
+                            <option value="perempuan">Perempuan</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pesan">Pesan:</label>
+                        <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan Anda di sini"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="status">Status:</label>
+                        <input type="radio" id="mahasiswa" name="status" value="mahasiswa">
+                        <label for="mahasiswa">Mahasiswa</label>
+                        <input type="radio" id="dosen" name="status" value="dosen">
+                        <label for="dosen">Dosen</label>
+                    </div>
+
+                    <button type="submit" class="btn">Kirim</button>
+                </form>
+                <!-- Akhir dari Form -->
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Lelyta | Dibuat dengan ❤️ di Politeknik Negeri Malang</p>
+        </div>
+    </footer>
+</body>
+</html>
